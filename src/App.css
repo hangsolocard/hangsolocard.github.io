@@ -1,0 +1,73 @@
+.App {
+  text-align: center;
+  width: 100%;
+  max-width: 680px;
+  margin: auto;
+  margin-bottom: 200px;
+  padding: 0 10px;
+  box-sizing: border-box;
+}
+
+h2, h3, p {margin: 0;}
+button {background: transparent; border:none; cursor: pointer;}
+
+.cover {width: 100%; overflow: hidden; height: 60vh; }
+.cover > img { width: 100%; height: 100%; object-fit: cover; object-position: center; }
+
+.intro { margin-top: 40px;}
+.intro > h3 {font-size: 30px;}
+.intro > p {margin-top: 20px;font-size: 20px; line-height: 30px;}
+
+.family {width: fit-content; margin: auto; margin-top: 50px; }
+.family > p { font-size: 16px; margin-top: 10px; text-align: right; font-weight: 700;}
+
+.groom-bride{display: flex; gap: 10px; margin-top: 70px; align-items: flex-start; }
+.groom-bride > div { width: 50%;}
+.groom-bride img {width: 100%; object-fit: cover;}
+.groom > .groom-img, .bride > .bride-img {width: 100%; overflow: hidden; height: 90%; border-radius: 2px;}
+.groom-bride > div > h3 {margin-top: 30px; font-size: 24px; display: flex; align-items: center; justify-content: center;}
+.groom-bride > div > h3 > span {display: inline-block; margin-right: 10px; font-size: 20px;}
+.groom-bride > .groom > h3 > span {color: #4169E1;}
+.groom-bride > .bride > h3 > span {color: #FFB6C1;}
+.groom-bride > div > pre {margin-top: 20px; font-size: 16px; font-weight: 600;}
+
+button.call-parent {border: 1px solid #0D0D0D; margin-top: 40px; padding: 20px 30%; font-size: 20px; border-radius: 8px;}
+
+.gallery {margin-top: 50px;}
+.gallery > h3 {font-size: 24px;}
+.gallery > .swiper {margin-top: 20px;}
+.gallery > .swiper > .swiper-wrapper {width: 100%; height: auto; align-items: center;}
+.gallery > .swiper > .swiper-wrapper > .swiper-slide {display: flex; align-items: center; width: 100%; height: 100%;}
+.gallery > .swiper > .swiper-wrapper > .swiper-slide > img {display: block; width: 100%; height: auto; object-position: center; object-fit: cover;}
+
+.swiper-button-next, .swiper-button-prev {color: white !important;}
+
+.route { margin-top: 60px; }
+.route > h2 {font-size: 28px;}
+.route > h3 {font-size: 24px; margin-top: 60px; font-weight: 400;}
+.route > p {font-size: 20px; margin-top: 20px;}
+.route > .map {margin-top: 20px;}
+
+.route > .left {text-align: left;}
+.route > h3.left {font-weight: 700; margin-top: 30px;}
+.route > p {font-size: 16px; margin-top: 10px;}
+
+.after-party {margin-top: 50px;}
+.after-party > h3 {font-size: 20px;}
+.after-party > p {margin-top: 5px; font-size: 16px;}
+.after-party > p.place {margin-top: 20px;}
+
+.bank-number {margin-top: 40px;}
+.bank-number > h3 {font-size: 24px;}
+.bank-number > pre {font-size: 16px; line-height: 24px;}
+
+.bank-number > div {margin-top: 20px; border: 1px solid #222; border-radius: 8px; padding: 4px;}
+.bank-number > div > h2, h3, p {text-align: left;}
+.bank-number > div > h2 {font-size: 24px; margin-bottom: 10px; border-bottom: 1px solid #222;}
+.bank-number > div > div {display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; border-bottom: 1px solid #222;}
+.bank-number > div > div:last-child {margin-bottom: 0px; border-bottom: none;}
+.bank-number > div > div > div > h3 {font-size: 20px; margin-bottom: 5px; font-weight: 600;}
+.bank-number > div > div > div > p {font-size: 16px;font-weight: 500;}
+
+.guestbook {margin-top: 20px;}
+.guestbook > img {width: 100%; border-radius: 2px;}
