@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/hang-solo-card/static/css/main.860d60f5.css",
+    "main.js": "/hang-solo-card/static/js/main.85e95ccc.js",
+    "static/js/488.189c03a4.chunk.js": "/hang-solo-card/static/js/488.189c03a4.chunk.js",
+    "index.html": "/hang-solo-card/index.html",
+    "main.860d60f5.css.map": "/hang-solo-card/static/css/main.860d60f5.css.map",
+    "main.85e95ccc.js.map": "/hang-solo-card/static/js/main.85e95ccc.js.map",
+    "488.189c03a4.chunk.js.map": "/hang-solo-card/static/js/488.189c03a4.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.860d60f5.css",
+    "static/js/main.85e95ccc.js"
+  ]
+}
