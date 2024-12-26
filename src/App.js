@@ -8,13 +8,13 @@ import { Map, MapMarker } from 'react-kakao-maps-sdk';
 
 function App() {
   const images = [];
-  for (let i = 0; i < 22; i++) images.push(`/slide-images/${i+1}.jpg`)
+  for (let i = 0; i < 22; i++) images.push(`slide-images/${i+1}.jpg`)
   const [currentIndex, setCurrentIndex] = useState(0);
 
   return (
     <div className="App">
       <section className="cover">
-        <img src="/image1.jpg" />
+        <img src="image1.jpg" />
       </section>
 
       <section className="intro">
@@ -39,7 +39,7 @@ function App() {
       <section className="groom-bride">
         <div className="groom">
           <div className="groom-img">
-            <img src="/groom-img.jpg" alt="신랑" />
+            <img src="groom-img.jpg" alt="신랑" />
           </div>
           <h3>
             <span>신랑</span>
@@ -50,7 +50,7 @@ function App() {
         </div>
         <div className="bride">
           <div className="bride-img">
-            <img src="/bride-img.jpg" alt="신부" />
+            <img src="bride-img.jpg" alt="신부" />
           </div>
           <h3>
             <span>신부</span>
@@ -198,7 +198,7 @@ function App() {
       </section>
 
       <section className="guestbook">
-        <img src="/slide-images/22.jpg" alt="" />
+        <img src="slide-images/22.jpg" alt="" />
       </section>
     </div>
   );
