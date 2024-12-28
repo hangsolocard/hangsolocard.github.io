@@ -4,7 +4,11 @@
   "private": true,
   "dependencies": {
     "cra-template": "1.2.0",
+    "firebase": "^11.1.0",
+    "fs.promises": "^0.1.2",
     "gh-pages": "^6.2.0",
+    "lowdb": "^7.0.1",
+    "path-browserify": "^1.0.1",
     "react": "^18.3.1",
     "react-dom": "^18.3.1",
     "react-kakao-maps-sdk": "^1.1.27",
@@ -41,5 +45,5 @@
   "devDependencies": {
     "web-vitals": "^4.2.4"
   },
-  "homepage": "https://bigstargithub.github.io/hang-solo-card"
+  "homepage": "https://hangsolocard.github.io"
 }
